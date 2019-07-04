@@ -1,0 +1,24 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+"autopep8" = "*"
+pylint = "*"
+pytest-flask = "*"
+
+
+[packages]
+
+flask = "*"
+flask-sqlalchemy = "*"
+flask-restful = "*"
+marshmallow-sqlalchemy = "*"
+flask-marshmallow = "*"
+flask-migrate = "*"
+marshmallow = "~=2.19.3"
+python-dotenv = "*"
